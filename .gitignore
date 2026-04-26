@@ -1,0 +1,55 @@
+# Secrets and auto-generated
+.env
+auth.json
+auth.json.*
+gateway.lock
+gateway.pid
+*.lock
+
+# Session data (regenerated)
+sessions/*
+!sessions/.gitkeep
+
+# Cache and checkpoints (regenerated)
+checkpoints/*
+!checkpoints/.gitkeep
+cache/*
+!cache/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Runtime state
+state.db
+state.db-*
+processes.json
+tasks.json
+gateway_state.json
+*/__pycache__/
+*.pyc
+
+# Large generated files
+models_dev_cache.json
+ollama_cloud_models_cache.json
+response_store.db
+
+# User-specific
+document_cache/*
+browser_screenshots/*
+image_cache/*
+audio_cache/*
+pastes/*
+sandboxes/*
+pairing/*
+rate_limits/*
+images/*
+bin/*
+whatsapp/*
+hooks/*
+archive/*
+
+# IDE
+.hermes_history
+
+# Temporary models catalog (downloaded)
+model_catalog.json
+.skills_prompt_snapshot.json

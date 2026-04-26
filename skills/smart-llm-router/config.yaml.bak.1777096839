@@ -1,0 +1,39 @@
+port: 8765
+providers:
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+  nvidia:
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key_env: NVIDIA_API_KEY
+  abacus:
+    base_url: https://routellm.abacus.ai/v1
+    api_key_env: ROUTELLM_API_KEY
+tiers:
+  free:
+  - provider: openrouter
+    model: inclusionai/ling-2.6-1t:free
+  - provider: openrouter
+    model: inclusionai/ling-2.6-flash:free
+  low:
+  - provider: openrouter
+    model: inclusionai/ling-2.6-1t:free
+  - provider: openrouter
+    model: inclusionai/ling-2.6-flash:free
+  medium:
+  - provider: openrouter
+    model: inclusionai/ling-2.6-flash:free
+  - provider: openrouter
+    model: baidu/qianfan-ocr-fast:free
+  high:
+  - provider: openrouter
+    model: inclusionai/ling-2.6-1t:free
+  - provider: openrouter
+    model: inclusionai/ling-2.6-flash:free
+default_tier: medium
+fallback:
+  max_retries_per_provider: 2
+  timeout: 20

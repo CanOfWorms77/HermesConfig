@@ -1,0 +1,202 @@
+{
+  "jobs": [
+    {
+      "id": "6d0179063f68",
+      "name": "Check hermes-workspace updates",
+      "prompt": "Check https://github.com/outsourc-e/hermes-workspace for updates. Look for: 1) New releases or version bumps, 2) Merging into official NousResearch/hermes-agent repo, 3) One-click VPS deployment feature, 4) Official desktop app, 5) WebAPI being upstreamed. Report any significant progress. Use: curl -s \"https://api.github.com/repos/outsourc-e/hermes-workspace/releases/latest\" and check README for new features.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "0 9 * * 1"
+      },
+      "schedule_display": "0 9 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-03-28T16:54:39.509022+00:00",
+      "next_run_at": "2026-04-27T09:00:00+00:00",
+      "last_run_at": "2026-04-20T09:02:48.407376+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "deliver": "telegram",
+      "origin": null,
+      "last_delivery_error": "no delivery target resolved for deliver=whatsapp"
+    },
+    {
+      "id": "4de31f740c22",
+      "name": "morning-brief",
+      "prompt": "Load elise-intelligence-brief skill. Generate morning brief covering last 12 hours. Include macro risk assessment. Send to Telegram.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "display": "0 9 * * *"
+      },
+      "schedule_display": "0 9 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 25
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-03-28T23:52:01.748047+00:00",
+      "next_run_at": "2026-04-27T09:00:00+00:00",
+      "last_run_at": "2026-04-26T09:02:30.228579+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "last_delivery_error": null
+    },
+    {
+      "id": "b100f9ba6de9",
+      "name": "evening-brief",
+      "prompt": "Load elise-intelligence-brief skill. Generate evening brief covering last 8 hours. Emphasise what changed since morning. Send to Telegram.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "display": "0 18 * * *"
+      },
+      "schedule_display": "0 18 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 25
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-03-28T23:52:08.296099+00:00",
+      "next_run_at": "2026-04-27T18:00:00+00:00",
+      "last_run_at": "2026-04-26T18:10:58.114298+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "last_delivery_error": null
+    },
+    {
+      "id": "bc30026fc258",
+      "name": "weekly-signal-review",
+      "prompt": "Load elise-signal-review skill. Run full weekly retrospective. Save findings to memory. Send summary to Telegram.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 0",
+        "display": "0 10 * * 0"
+      },
+      "schedule_display": "0 10 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 4
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-03-28T23:52:14.586188+00:00",
+      "next_run_at": "2026-05-03T10:00:00+00:00",
+      "last_run_at": "2026-04-26T10:04:50.034857+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "deliver": "local",
+      "origin": null,
+      "last_delivery_error": null
+    },
+    {
+      "id": "f34330197e60",
+      "name": "daily-crypto-research-wiki-update",
+      "prompt": "You are tasked with researching the user's cryptocurrency holdings and updating their LLM wiki with the findings.\n\nThe user's cryptocurrency holdings are:\n- BTC: 0.01657 @ $70,220\n- ETH: 0.3552 @ $2,060  \n- SUI: 664 @ $0.932\n- SOL: 7.34 @ $87.70\n- DSYNC: 63,668\n- ATH: 65,615\n- IO: 3,030\n- SUPER: 8,777\n- WELL: 81,500\n- tao.bot: 3,550\n- CPOOL: 26,849\n- TURBO: 266,369\n\nSteps:\n1. Run deep research on the topic: \"Crypto portfolio analysis and news for holdings: BTC, ETH, SUI, SOL, DSYNC, ATH, IO, SUPER, WELL, tao.bot, CPOOL, TURBO\"\n   - Use the research skill to perform this analysis.\n   - Capture the full output of the research.\n\n2. Ingest the research output into the user's LLM wiki.\n   - Use the llm-wiki skill to ingest the research output as a source.\n   - Provide a descriptive title for the source, such as \"Daily Crypto Portfolio Research: YYYY-MM-DD\" (use today's date).\n   - The llm-wiki skill will process the output, extract entities and concepts, and update the wiki accordingly.\n\n3. After ingesting, log the completion of the task.\n   - Append a note to the wiki's log.md indicating that the daily crypto research was completed and the wiki was updated.\n\nImportant:\n- Do not ask for clarification or user input during this cron run.\n- If any step fails, note the error in the wiki log and continue if possible.\n- The research skill may use external tools (like Perplexity Sonar) - this is expected and allowed.\n- Focus on capturing new news and developments from the last 24 hours.\n- Include analysis of current prices vs entry prices where available.",
+      "skills": [
+        "research",
+        "llm-wiki"
+      ],
+      "skill": "research",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "display": "0 7 * * *"
+      },
+      "schedule_display": "0 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 16
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-10T23:27:13.121953+00:00",
+      "next_run_at": "2026-04-27T07:00:00+00:00",
+      "last_run_at": "2026-04-26T07:11:38.459378+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "deliver": "local",
+      "origin": null,
+      "last_delivery_error": null
+    },
+    {
+      "id": "3e213e24c93e",
+      "name": "smart-llm-router-daily-discovery",
+      "prompt": "Run the Smart LLM Router daily model discovery script at /root/.hermes/skills/mlops/smart-llm-router/scripts/daily_discovery.sh. This script probes free models across providers, benchmarks them, updates the router config, and restarts the proxy if needed. After running, check if the proxy is still running on port 8765. If not, start it with: cd /root/.hermes/skills/mlops/smart-llm-router && /root/.hermes/hermes-agent/venv/bin/python scripts/manage_proxy.py start",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 6 * * *",
+        "display": "0 6 * * *"
+      },
+      "schedule_display": "0 6 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-04-23T22:01:31.800858+00:00",
+      "next_run_at": "2026-04-27T06:00:00+00:00",
+      "last_run_at": "2026-04-26T06:03:25.833346+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null
+    }
+  ],
+  "updated_at": "2026-04-26T18:10:58.115071+00:00"
+}

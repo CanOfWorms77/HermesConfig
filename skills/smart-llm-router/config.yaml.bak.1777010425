@@ -1,0 +1,54 @@
+port: 8765
+
+providers:
+  openrouter:
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY
+  groq:
+    base_url: https://api.groq.com/openai/v1
+    api_key_env: GROQ_API_KEY
+  nvidia:
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key_env: NVIDIA_API_KEY
+  abacus:
+    base_url: https://routellm.abacus.ai/v1
+    api_key_env: ROUTELLM_API_KEY
+
+tiers:
+  free:
+    - provider: groq
+      model: llama-3.3-70b-versatile
+    - provider: openrouter
+      model: nousresearch/hermes-3-llama-3.1-405b:free
+    - provider: openrouter
+      model: minimax/minimax-m2.5:free
+
+  low:
+    - provider: groq
+      model: llama-3.3-70b-versatile
+    - provider: openrouter
+      model: google/gemini-2.5-flash
+    - provider: openrouter
+      model: inclusionai/ling-2.6-1t:free
+
+  medium:
+    - provider: openrouter
+      model: anthropic/claude-sonnet-4.6
+    - provider: groq
+      model: llama-3.3-70b-versatile
+    - provider: openrouter
+      model: qwen/qwen3-next-80b-a3b-instruct:free
+
+  high:
+    - provider: openrouter
+      model: anthropic/claude-opus-4.6
+    - provider: abacus
+      model: claude-3.5-sonnet
+    - provider: groq
+      model: llama-3.3-70b-versatile
+
+default_tier: "medium"
+
+fallback:
+  max_retries_per_provider: 2
+  timeout: 20

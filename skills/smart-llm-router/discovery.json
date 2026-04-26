@@ -1,0 +1,1405 @@
+{
+  "timestamp": 1777183383.0986,
+  "results": [
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-1t:free",
+      "tier": "free",
+      "latency_ms": 1499.2158547975123,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 42,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-1t:free",
+      "tier": "low",
+      "latency_ms": 1549.3317795917392,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 32,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-1t:free",
+      "tier": "medium",
+      "latency_ms": 1128.7089050747454,
+      "success": true,
+      "quality_pass": false,
+      "tokens_used": 44,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-1t:free",
+      "tier": "high",
+      "latency_ms": 1544.8040352202952,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 82,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "tencent/hy3-preview:free",
+      "tier": "free",
+      "latency_ms": 2784.676823299378,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "'NoneType' object has no attribute 'lower'"
+    },
+    {
+      "provider": "openrouter",
+      "model": "tencent/hy3-preview:free",
+      "tier": "low",
+      "latency_ms": 3002.4381461553276,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "'NoneType' object has no attribute 'lower'"
+    },
+    {
+      "provider": "openrouter",
+      "model": "tencent/hy3-preview:free",
+      "tier": "medium",
+      "latency_ms": 3442.057373933494,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "argument of type 'NoneType' is not iterable"
+    },
+    {
+      "provider": "openrouter",
+      "model": "tencent/hy3-preview:free",
+      "tier": "high",
+      "latency_ms": 3341.8924040161073,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "'NoneType' object has no attribute 'split'"
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-flash:free",
+      "tier": "free",
+      "latency_ms": 820.5582369118929,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 42,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-flash:free",
+      "tier": "low",
+      "latency_ms": 826.9806751050055,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 32,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-flash:free",
+      "tier": "medium",
+      "latency_ms": 805.0238299183547,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 61,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-2.6-flash:free",
+      "tier": "high",
+      "latency_ms": 849.6899646706879,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 84,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "baidu/qianfan-ocr-fast:free",
+      "tier": "free",
+      "latency_ms": 1529.16580112651,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 32,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "baidu/qianfan-ocr-fast:free",
+      "tier": "low",
+      "latency_ms": 2150.409867055714,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 22,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "baidu/qianfan-ocr-fast:free",
+      "tier": "medium",
+      "latency_ms": 1671.7082560062408,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 46,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "baidu/qianfan-ocr-fast:free",
+      "tier": "high",
+      "latency_ms": 1943.081006873399,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 91,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "tier": "free",
+      "latency_ms": 498.45324270427227,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "tier": "low",
+      "latency_ms": 542.1005738899112,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "tier": "medium",
+      "latency_ms": 415.38937110453844,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "tier": "high",
+      "latency_ms": 407.7391270548105,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-31b-it:free",
+      "tier": "free",
+      "latency_ms": 401.65437292307615,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate you"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-31b-it:free",
+      "tier": "low",
+      "latency_ms": 477.91452798992395,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate you"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-31b-it:free",
+      "tier": "medium",
+      "latency_ms": 480.62618309631944,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate you"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-4-31b-it:free",
+      "tier": "high",
+      "latency_ms": 531.0602318495512,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate you"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "tier": "free",
+      "latency_ms": 248.83834039792418,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "tier": "low",
+      "latency_ms": 289.301052223891,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "tier": "medium",
+      "latency_ms": 252.6059220544994,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "tier": "high",
+      "latency_ms": 262.6274200156331,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "minimax/minimax-m2.5:free",
+      "tier": "free",
+      "latency_ms": 30976.306250784546,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "Timeout"
+    },
+    {
+      "provider": "openrouter",
+      "model": "minimax/minimax-m2.5:free",
+      "tier": "low",
+      "latency_ms": 795.2371798455715,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 99,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "minimax/minimax-m2.5:free",
+      "tier": "medium",
+      "latency_ms": 915.7146676443517,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 363,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "minimax/minimax-m2.5:free",
+      "tier": "high",
+      "latency_ms": 676.6553833149374,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 266,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-thinking:free",
+      "tier": "free",
+      "latency_ms": 293.3932770974934,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-thinking:free",
+      "tier": "low",
+      "latency_ms": 248.1390186585486,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-thinking:free",
+      "tier": "medium",
+      "latency_ms": 248.38822102174163,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-thinking:free",
+      "tier": "high",
+      "latency_ms": 153.72187970206141,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-instruct:free",
+      "tier": "free",
+      "latency_ms": 150.59770084917545,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-instruct:free",
+      "tier": "low",
+      "latency_ms": 191.0765329375863,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-instruct:free",
+      "tier": "medium",
+      "latency_ms": 156.08293237164617,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "liquid/lfm-2.5-1.2b-instruct:free",
+      "tier": "high",
+      "latency_ms": 160.55459901690483,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "tier": "free",
+      "latency_ms": 149.2505739443004,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "tier": "low",
+      "latency_ms": 154.6718841418624,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "tier": "medium",
+      "latency_ms": 151.03834494948387,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "tier": "high",
+      "latency_ms": 163.09997299686074,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "tier": "free",
+      "latency_ms": 195.32243767753243,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "tier": "low",
+      "latency_ms": 151.39074623584747,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "tier": "medium",
+      "latency_ms": 153.1147169880569,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "tier": "high",
+      "latency_ms": 153.28591829165816,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "tier": "free",
+      "latency_ms": 419.8242030106485,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-next-80b-a3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "tier": "low",
+      "latency_ms": 433.3947612904012,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-next-80b-a3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "tier": "medium",
+      "latency_ms": 405.3136399015784,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-next-80b-a3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "tier": "high",
+      "latency_ms": 374.14886290207505,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-next-80b-a3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-9b-v2:free",
+      "tier": "free",
+      "latency_ms": 221.23570693656802,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-9b-v2:free",
+      "tier": "low",
+      "latency_ms": 155.31748859211802,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-9b-v2:free",
+      "tier": "medium",
+      "latency_ms": 152.80067501589656,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-nano-9b-v2:free",
+      "tier": "high",
+      "latency_ms": 153.4709190018475,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-120b:free",
+      "tier": "free",
+      "latency_ms": 855.6697019375861,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 108,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-120b:free",
+      "tier": "low",
+      "latency_ms": 1175.1180957071483,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 97,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-120b:free",
+      "tier": "medium",
+      "latency_ms": 657.3151680640876,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 125,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-120b:free",
+      "tier": "high",
+      "latency_ms": 710.4375949129462,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 177,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-20b:free",
+      "tier": "free",
+      "latency_ms": 793.8875542022288,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 107,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-20b:free",
+      "tier": "low",
+      "latency_ms": 782.0190070196986,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 94,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-20b:free",
+      "tier": "medium",
+      "latency_ms": 848.4645108692348,
+      "success": true,
+      "quality_pass": false,
+      "tokens_used": 115,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "openai/gpt-oss-20b:free",
+      "tier": "high",
+      "latency_ms": 864.7859659977257,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 174,
+      "error": null
+    },
+    {
+      "provider": "openrouter",
+      "model": "z-ai/glm-4.5-air:free",
+      "tier": "free",
+      "latency_ms": 249.07094985246658,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "z-ai/glm-4.5-air:free",
+      "tier": "low",
+      "latency_ms": 322.7204941213131,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "z-ai/glm-4.5-air:free",
+      "tier": "medium",
+      "latency_ms": 246.46821524947882,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "z-ai/glm-4.5-air:free",
+      "tier": "high",
+      "latency_ms": 251.55664468184114,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-coder:free",
+      "tier": "free",
+      "latency_ms": 390.3446807526052,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rat"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-coder:free",
+      "tier": "low",
+      "latency_ms": 398.1148856692016,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rat"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-coder:free",
+      "tier": "medium",
+      "latency_ms": 394.22430377453566,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rat"
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3-coder:free",
+      "tier": "high",
+      "latency_ms": 389.72715893760324,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rat"
+    },
+    {
+      "provider": "openrouter",
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "tier": "free",
+      "latency_ms": 449.5350616052747,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"cognitivecomputations/dolphin-mistral-24b-venice-edition:free is temporarily rate-limited upstream. Please retry shortly, or"
+    },
+    {
+      "provider": "openrouter",
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "tier": "low",
+      "latency_ms": 384.8291700705886,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"cognitivecomputations/dolphin-mistral-24b-venice-edition:free is temporarily rate-limited upstream. Please retry shortly, or"
+    },
+    {
+      "provider": "openrouter",
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "tier": "medium",
+      "latency_ms": 370.52344903349876,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"cognitivecomputations/dolphin-mistral-24b-venice-edition:free is temporarily rate-limited upstream. Please retry shortly, or"
+    },
+    {
+      "provider": "openrouter",
+      "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "tier": "high",
+      "latency_ms": 391.6632109321654,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"cognitivecomputations/dolphin-mistral-24b-venice-edition:free is temporarily rate-limited upstream. Please retry shortly, or"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e2b-it:free",
+      "tier": "free",
+      "latency_ms": 154.82804970815778,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e2b-it:free",
+      "tier": "low",
+      "latency_ms": 152.0469132810831,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e2b-it:free",
+      "tier": "medium",
+      "latency_ms": 152.51915622502565,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e2b-it:free",
+      "tier": "high",
+      "latency_ms": 258.89264699071646,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e4b-it:free",
+      "tier": "free",
+      "latency_ms": 156.96734189987183,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e4b-it:free",
+      "tier": "low",
+      "latency_ms": 153.14771980047226,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e4b-it:free",
+      "tier": "medium",
+      "latency_ms": 292.9272442124784,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3n-e4b-it:free",
+      "tier": "high",
+      "latency_ms": 159.3816364184022,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-4b-it:free",
+      "tier": "free",
+      "latency_ms": 163.40025886893272,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-4b-it:free",
+      "tier": "low",
+      "latency_ms": 156.58905869349837,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-4b-it:free",
+      "tier": "medium",
+      "latency_ms": 153.77292269840837,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-4b-it:free",
+      "tier": "high",
+      "latency_ms": 252.74749286472797,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-12b-it:free",
+      "tier": "free",
+      "latency_ms": 151.1727487668395,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-12b-it:free",
+      "tier": "low",
+      "latency_ms": 151.2433490715921,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-12b-it:free",
+      "tier": "medium",
+      "latency_ms": 155.4086529649794,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-12b-it:free",
+      "tier": "high",
+      "latency_ms": 165.70371203124523,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-27b-it:free",
+      "tier": "free",
+      "latency_ms": 249.6520751155913,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-27b-it:free",
+      "tier": "low",
+      "latency_ms": 151.93707402795553,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-27b-it:free",
+      "tier": "medium",
+      "latency_ms": 158.01674919202924,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "google/gemma-3-27b-it:free",
+      "tier": "high",
+      "latency_ms": 155.3774531930685,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-min. \",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"16\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1777183380000\"},\"provider_n"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "tier": "free",
+      "latency_ms": 390.27860295027494,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to ac"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "tier": "low",
+      "latency_ms": 396.9074818305671,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to ac"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "tier": "medium",
+      "latency_ms": 377.88653234019876,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to ac"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "tier": "high",
+      "latency_ms": 417.9932428523898,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to ac"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "tier": "free",
+      "latency_ms": 379.680342040956,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "tier": "low",
+      "latency_ms": 391.11032895743847,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "tier": "medium",
+      "latency_ms": 379.60706278681755,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "meta-llama/llama-3.2-3b-instruct:free",
+      "tier": "high",
+      "latency_ms": 401.60402888432145,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.2-3b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to acc"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "tier": "free",
+      "latency_ms": 381.9086761213839,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"nousresearch/hermes-3-llama-3.1-405b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "tier": "low",
+      "latency_ms": 377.41177110001445,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"nousresearch/hermes-3-llama-3.1-405b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "tier": "medium",
+      "latency_ms": 379.7054630704224,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"nousresearch/hermes-3-llama-3.1-405b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "tier": "high",
+      "latency_ms": 404.2562451213598,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"nousresearch/hermes-3-llama-3.1-405b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "tier": "free",
+      "latency_ms": 194.73259896039963,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 59,
+      "error": null
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "tier": "low",
+      "latency_ms": 1272.9176017455757,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 50,
+      "error": null
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "tier": "medium",
+      "latency_ms": 306.004520971328,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 90,
+      "error": null
+    },
+    {
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "tier": "high",
+      "latency_ms": 478.5724333487451,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 126,
+      "error": null
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-scout-17b-16e-instruct",
+      "tier": "free",
+      "latency_ms": 31.698822043836117,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-scout-17b-16e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-scout-17b-16e-instruct",
+      "tier": "low",
+      "latency_ms": 31.178019009530544,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-scout-17b-16e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-scout-17b-16e-instruct",
+      "tier": "medium",
+      "latency_ms": 32.820628955960274,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-scout-17b-16e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-scout-17b-16e-instruct",
+      "tier": "high",
+      "latency_ms": 31.75694216042757,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-scout-17b-16e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-maverick-17b-128e-instruct",
+      "tier": "free",
+      "latency_ms": 31.411380972713232,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-maverick-17b-128e-instruct",
+      "tier": "low",
+      "latency_ms": 35.27852287515998,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-maverick-17b-128e-instruct",
+      "tier": "medium",
+      "latency_ms": 31.149059999734163,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "llama-4-maverick-17b-128e-instruct",
+      "tier": "high",
+      "latency_ms": 30.10537289083004,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 404: {\"error\":{\"message\":\"The model `llama-4-maverick-17b-128e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    },
+    {
+      "provider": "groq",
+      "model": "gemma2-9b-it",
+      "tier": "free",
+      "latency_ms": 30.75933689251542,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use "
+    },
+    {
+      "provider": "groq",
+      "model": "gemma2-9b-it",
+      "tier": "low",
+      "latency_ms": 27.45427703484893,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use "
+    },
+    {
+      "provider": "groq",
+      "model": "gemma2-9b-it",
+      "tier": "medium",
+      "latency_ms": 31.03781770914793,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use "
+    },
+    {
+      "provider": "groq",
+      "model": "gemma2-9b-it",
+      "tier": "high",
+      "latency_ms": 28.97396730259061,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use "
+    },
+    {
+      "provider": "groq",
+      "model": "mixtral-8x7b-32768",
+      "tier": "free",
+      "latency_ms": 30.88965779170394,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model t"
+    },
+    {
+      "provider": "groq",
+      "model": "mixtral-8x7b-32768",
+      "tier": "low",
+      "latency_ms": 29.019927140325308,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model t"
+    },
+    {
+      "provider": "groq",
+      "model": "mixtral-8x7b-32768",
+      "tier": "medium",
+      "latency_ms": 32.29390503838658,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model t"
+    },
+    {
+      "provider": "groq",
+      "model": "mixtral-8x7b-32768",
+      "tier": "high",
+      "latency_ms": 29.24444805830717,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 400: {\"error\":{\"message\":\"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model t"
+    },
+    {
+      "provider": "nvidia",
+      "model": "meta/llama-3.3-70b-instruct",
+      "tier": "free",
+      "latency_ms": 881.3503109849989,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 59,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "meta/llama-3.3-70b-instruct",
+      "tier": "low",
+      "latency_ms": 10319.728184957057,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 49,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "meta/llama-3.3-70b-instruct",
+      "tier": "medium",
+      "latency_ms": 934.9302598275244,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 88,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "meta/llama-3.3-70b-instruct",
+      "tier": "high",
+      "latency_ms": 9592.902045696974,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 135,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "deepseek-ai/deepseek-v3.2",
+      "tier": "free",
+      "latency_ms": 30049.06838107854,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "Timeout"
+    },
+    {
+      "provider": "nvidia",
+      "model": "deepseek-ai/deepseek-v3.2",
+      "tier": "low",
+      "latency_ms": 17963.087680283934,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "provider": "nvidia",
+      "model": "deepseek-ai/deepseek-v3.2",
+      "tier": "medium",
+      "latency_ms": 16117.806871887296,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "provider": "nvidia",
+      "model": "deepseek-ai/deepseek-v3.2",
+      "tier": "high",
+      "latency_ms": 46.83151002973318,
+      "success": false,
+      "quality_pass": false,
+      "tokens_used": 0,
+      "error": "HTTP 429: {\"status\":429,\"title\":\"Too Many Requests\"}"
+    },
+    {
+      "provider": "nvidia",
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "tier": "free",
+      "latency_ms": 431.1174089089036,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 28,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "tier": "low",
+      "latency_ms": 308.96318377926946,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 18,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "tier": "medium",
+      "latency_ms": 559.713311959058,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 45,
+      "error": null
+    },
+    {
+      "provider": "nvidia",
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "tier": "high",
+      "latency_ms": 1195.4052653163671,
+      "success": true,
+      "quality_pass": true,
+      "tokens_used": 106,
+      "error": null
+    }
+  ]
+}
