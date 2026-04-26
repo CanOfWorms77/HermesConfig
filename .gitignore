@@ -53,3 +53,7 @@ archive/*
 # Temporary models catalog (downloaded)
 model_catalog.json
 .skills_prompt_snapshot.json
+hermesagent-*.json
+response_store.db-*
+.update_check
+channel_directory.json
