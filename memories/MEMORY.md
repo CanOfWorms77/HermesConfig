@@ -1,7 +1,11 @@
-Dave wants web_search to use Perplexity Sonar API (basic tier, generous RPM) for knowledge coupling with real-time info. Has Perplexity Pro subscription — likely allows a lot of basic Sonar calls. Key in /root/.hermes/.env. Endpoint: https://api.perplexity.ai/chat/completions. Default to Sonar basic for routine searches.
+Dave (CanOfWorms77) runs Hermes Agent on a Linux VPS with minimal setup: Abacus RouteLLM (deepseek-v4-flash) primary, OpenRouter fallback. Sessions auto-prune at 30 days. 9 skills enabled (hermes-agent, multi-model-subagents, hermes-cleanup-reset, code-review, plan, subagent-driven-development, systematic-debugging, test-driven-development, writing-plans). Config git-tracked at github.com/CanOfWorms77/HermesConfig.
 §
-For web: DuckDuckGo (ddgs) for free search, Firecrawl as configured backend (needs key or Nous gateway to work), and I should call Perplexity Sonar API directly via terminal/curl for knowledge-coupled answers when needed. Perplexity isn't integrated as a web_tools backend.
+Uses Perplexity Sonar API for web research (Pro subscription). Key in .env. Endpoint: https://api.perplexity.ai/chat/completions. Prefer Sonar Pro for crypto/niche research over DDGS.
 §
-David wants to build a crypto meme coin early detection/alert system. Key interest: catching new pump.fun tokens that are about to pump (like BELKA at $0.00003, pre-6500% pump). Proposed stack: pump.fun API (free) + DexScreener (free) + Birdeye free tier for new token scanning, scored on buy/sell ratio, social presence, low MC entry. Cron job delivers alerts to his Telegram. Subagent model still needs updating from free tier (meta-llama/llama-3.3-70b-instruct:free on OpenRouter) — he'll handle config himself. BELKA contract: 4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump, $2.19M MC, 6500% 24h, migrated to PumpSwap.
+Primary interface: Hermes Workspace web UI. Also uses terminal and VS Code (via ACP) for coding.
 §
-Dave performed a full clean-wipe of HERMES_HOME on 2026-04-26. He backed up, wiped sessions/checkpoints/cache/logs/config.yaml/auth.json, regenerated a clean config with only Abacus (deepseek-v4-flash) and OpenRouter fallback. Git repo initialized at /root/.hermes/ and pushed to https://github.com/CanOfWorms77/HermesConfig. Sessions now auto-prune at 30 days. The old 2.2G install had 252 stale sessions and 110 request dumps causing huge token overhead (~14K per call).
+Projects: Hermes Agent, ELISE (intelligence brief system), crypto portfolio tracking.
+§
+Wants subagents used for multi-step tasks to keep main context lean (~11K token baseline).
+§
+Interested in crypto meme coin early detection. Pump.fun + DexScreener + Birdeye stack for new token scanning. BELKA contract: 4df1wZoygsynEZ6XmpcoabrVwv7nBgjHLyCns5xApump.

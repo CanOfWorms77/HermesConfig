@@ -119,6 +119,13 @@ rm -f ~/.hermes/models_dev_cache.json
 rm -f ~/.hermes/gateway_state.json
 rm -f ~/.hermes/response_store.db
 
+# Cron output (keep job definitions in cron/jobs.json)
+rm -rf ~/.hermes/cron/output/*
+
+# Stale runtime files
+rm -f ~/.hermes/processes.json
+rm -f ~/.hermes/tasks.json
+
 # Keep: .env, skills/, memories/, cron/
 ```
 
